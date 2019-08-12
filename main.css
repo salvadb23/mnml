@@ -83,7 +83,9 @@ ul {
 
 h1, h2, h3, h4, h5, h6 {
     padding: 5px;
-    margin: 5px;
+    margin: 0px;
+    margin-left: 5px;
+    line-height: 1.5em;
 }
 
 p {
@@ -180,8 +182,32 @@ button:focus {
     color: yellow;
 }
 
+ .footer > .container-column > .container-row > a {
+    margin: 0px 10px 10px 0px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer > .container-column > .container-row > a:hover {
+    margin: 0px 10px 10px 0px;
+    color: yellow;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 .title {
     font-weight: bold;
+}
+
+.footer {
+    padding: 20px;
+    background-color: var(--grey-800);
+    min-height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
 }
 
 .hero-medium {
