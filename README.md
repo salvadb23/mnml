@@ -14,7 +14,7 @@ MNML offers a ton of color options all available in CSS variable at the top of t
         <li>Link 3</li>
     </ul>
 </div>
-<div class="navbar" style="margin:7px">
+<div class="navbar">
     <ul>
         <li class="title">MNML</li>
         <li>Link 1</li>
@@ -22,7 +22,7 @@ MNML offers a ton of color options all available in CSS variable at the top of t
         <li>Link 3</li>
     </ul>
 </div>
-<div class="navbar" style="margin:7px">
+<div class="navbar">
     <ul>
         <li>Link</li>
         <li>Link</li>
